@@ -7,3 +7,10 @@
   width: 18rem;
   margin: 4px;
 }
+
+.dropdown-toggle {
+  position: absolute;
+  top: 8px;
+  width: 43px;
+  height: 40px;
+}

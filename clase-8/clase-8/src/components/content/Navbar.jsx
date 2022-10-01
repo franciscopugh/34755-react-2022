@@ -3,7 +3,7 @@ import Dropdow from '../layouts/Dropdow';
 import Secciones from '../layouts/Secciones';
 
 const Navbar = ({contador}) => {
-  const listDrowdon = ["Hombre", "Mujer", "Niños", "Bebe"]
+  const listDrowdon = ["Electro", "Celulares", "Televisores"]
   
     return (
         <> 
@@ -12,7 +12,7 @@ const Navbar = ({contador}) => {
                 <div className="collapse navbar-collapse" id="navbarColor01">
                   <ul className="navbar-nav me-auto">
                     <Secciones/>
-                    
+                    <Dropdow lista = {listDrowdon}/>
                   </ul>
                   
                 </div>

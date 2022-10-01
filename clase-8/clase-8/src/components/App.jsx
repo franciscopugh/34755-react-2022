@@ -7,6 +7,7 @@ import About from './content/About';
 import Contacto from './content/Contacto';
 import Producto from './content/Producto';
 import Footer from './content/Footer'
+import Categoria from './content/Categoria';
 const App = () => {
 
     return (
@@ -16,6 +17,7 @@ const App = () => {
             <Routes>
               <Route path="/" element={<Home/>} />
               <Route path="/producto/:id" element={<Producto/>} />
+              <Route path="/categoria/:id" element={<Categoria/>} />
               <Route path="/about" element={<About/>} />
               <Route path="/contacto" element={<Contacto/>} />
               <Route path="/carrito" element={<Carrito/>} />
