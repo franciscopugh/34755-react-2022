@@ -1,0 +1,6 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: antiquewhite;
+  color: black;
+  transition: all 1s ease-out;
+}
