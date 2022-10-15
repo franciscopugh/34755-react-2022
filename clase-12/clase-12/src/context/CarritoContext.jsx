@@ -13,7 +13,9 @@ const CarritoProvider = (props) => {
         if(indice != -1) {
             aux[indice].cantidad = cant
         } else {
-          const prodCarrito = {...prod, cantidad: cant}
+            const id = prod[0]
+            const x = prod[1]
+          const prodCarrito = {id, ...x, cantidad: cant}
           aux.push(prodCarrito)
         }
         setCarrito(structuredClone(aux))

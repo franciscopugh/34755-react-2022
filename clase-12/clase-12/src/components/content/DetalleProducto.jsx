@@ -7,7 +7,7 @@ const DetalleProducto = ({producto}) => {
 
     const cantProducto = (operacion) => {
       if(operacion == "+") {
-          if(cantidad < producto.stock) {
+          if(cantidad < producto[1].stock) {
             setCantidad(cantidad + 1)
           }   
       } else {
@@ -21,15 +21,15 @@ const DetalleProducto = ({producto}) => {
          
   <div className="row g-0">
     <div className="col-md-4">
-      <img src={`${producto.img}`} className="img-fluid rounded-start" alt="..." />
+      <img src={producto[1].img} className="img-fluid rounded-start" alt="..." />
     </div>
     <div className="col-md-8">
       <div className="card-body">
-        <h5 className="card-title">{producto.nombre}</h5>
-        <p className="card-text">{producto.modelo}</p>
-        <p className="card-text">{producto.marca}</p>
-        <p className="card-text">{producto.precio}</p>
-        <p className="card-text">{producto.stock}</p>
+        <h5 className="card-title">{producto[1].nombre}</h5>
+        <p className="card-text">{producto[1].modelo}</p>
+        <p className="card-text">{producto[1].marca}</p>
+        <p className="card-text">{producto[1].precio}</p>
+        <p className="card-text">{producto[1].stock}</p>
         <p className='card-text'>{cantidad}</p>
         <button className='btn btn-light' onClick={() => cantProducto("+")}>+</button>
 
