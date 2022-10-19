@@ -1,0 +1,103 @@
+[
+    {
+        "id": 1,
+        "idCategoria":1,
+        "nombre": "Notebook",
+        "marca": "Lenovo",
+        "modelo": "Y510P",
+        "precio": 60000,
+        "stock": 30,
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-5baa8.appspot.com/o/Imagenes%2Fnotebook-lenovo.jpg?alt=media&token=980d86d4-eaa4-4c40-8a53-83c754982c1d"
+    },
+    {
+        "id": 2,
+        "idCategoria":2,
+        "nombre": "Celular",
+        "marca": "Xiomi",
+        "modelo": "Mi-9",
+        "precio": 35000,
+        "stock": 20,
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-5baa8.appspot.com/o/Imagenes%2Fxiaomi-mi-9.jpg?alt=media&token=f80ddd48-ec61-4fa4-9e83-03f7465ba4f6"
+    },
+    {
+        "id": 3,
+        "nombre": "Smart Tv",
+        "idCategoria":3,
+        "marca": "Novatech",
+        "modelo": "50D1U",
+        "precio": 57000,
+        "stock": 15,
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-5baa8.appspot.com/o/Imagenes%2Fsmart-tv-novatech.jpg?alt=media&token=082d5d9f-8402-48aa-bbd7-638ee0947efc"
+    },
+    {
+        "id": 4,
+        "nombre": "Camara Deportiva",
+        "idCategoria":1,
+        "marca": "iQual",
+        "modelo": "C40",
+        "precio": 8000,
+        "stock": 30,
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-5baa8.appspot.com/o/Imagenes%2Fcamara-iqual.jpg?alt=media&token=cd4fb66b-21d1-4ac8-ac7c-f5b43b4999ec"
+    },
+    {
+        "id": 5,
+        "nombre": "Mouse",
+        "idCategoria":1,
+        "marca": "Logitech",
+        "modelo": "G502",
+        "precio": 1400,
+        "stock": 7,
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-5baa8.appspot.com/o/Imagenes%2Fmouse-logitech.jpg?alt=media&token=11174974-a3dc-4a3d-9e44-d26f159d0073"
+    },
+    {
+        "id": 6,
+        "nombre": "Auriculares",
+        "idCategoria":1,
+        "marca": "Motorola",
+        "modelo": "Pulse Escape",
+        "precio": 4000,
+        "stock": 20,
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-5baa8.appspot.com/o/Imagenes%2Fmotorola-pulse.jpg?alt=media&token=f759511b-22af-4c4d-b5fe-78766d185ca9"
+    },
+    {
+        "id": 7,
+        "idCategoria":2,
+        "nombre": "iPhone",
+        "marca": "Apple",
+        "modelo": "X Silver",
+        "precio": 250000,
+        "stock": 10,
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-5baa8.appspot.com/o/Imagenes%2Fiphone-x.jpg?alt=media&token=1abe5f8d-58ed-4b80-8600-bb2e4fa54365"
+    },
+    {
+        "id": 8,
+        "nombre": "Apple TV",
+        "idCategoria":3,
+        "marca": "Apple ",
+        "modelo": "32 Gb",
+        "precio": 45000,
+        "stock": 30,
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-5baa8.appspot.com/o/Imagenes%2Fapple-tv.jpg?alt=media&token=3e88087f-9e3e-4c9b-891c-8cbe7ba2ca8e"
+    },
+    {
+        "id": 9,
+        "nombre": "Parlante",
+        "idCategoria":1,
+        "marca": "Kalley",
+        "modelo": "SPK200",
+        "precio": 34000,
+        "stock": 21,
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-5baa8.appspot.com/o/Imagenes%2Fparlante-kalley.png?alt=media&token=6ad3880b-12c7-41dc-ba59-bb3c8d3413a9"
+    },
+    {
+        "id": 10,
+        "idCategoria":1,
+        "nombre": "Mac",
+        "marca": "Apple",
+        "modelo": "Air",
+        "precio": 13000,
+        "stock": 25,
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-5baa8.appspot.com/o/Imagenes%2Fmac-air.jpg?alt=media&token=9f92d282-69f7-4368-b82c-1378984f52d2"
+    }
+    
+]
